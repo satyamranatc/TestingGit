@@ -1,11 +1,11 @@
 nav
 {
+    background-color: black;
+    color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    color: black;
     padding: 10px 20px;
+    justify-content: space-between;
 }
 
 nav ul
