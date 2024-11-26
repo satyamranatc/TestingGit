@@ -1,16 +1,15 @@
 import React from 'react'
-import "./NavBar.css"
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 
 export default function NavBar() {
   return (
-    <nav className='MainNav' >
-        <h2>Shop.Io</h2>
+    <nav>
+        <h2>The Product App</h2>
         <ul>
-            <li><Link to={"/"}>Home</Link></li>
-            <li><Link to={"/Products"}>Produts</Link></li>
+            <li><Link to = "/">Home</Link></li>
+            <li><Link to = "/Products">Products</Link></li>
+            <li><Link to = "/Cart">Cart</Link></li>
         </ul>
-
     </nav>
   )
 }
